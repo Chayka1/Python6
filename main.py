@@ -15,5 +15,15 @@ def task_1_3():
         print('Ключ не найден!')
 
 
+def task_1_4():
+    dct = {'Джим': 12345}
+
+    if 'Джим' in dct:
+        del dct['Джим']
+
+def task_1_5():
+
+
+
 if __name__ == '__main__':
-    task_1_3()
+    task_1_4()
