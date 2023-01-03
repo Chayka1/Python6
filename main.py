@@ -22,7 +22,7 @@ def task_1_4():
         del dct['Джим']
 
 def task_1_5():
-
+    myset = set([10, 20, 30, 40])
 
 
 if __name__ == '__main__':
