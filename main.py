@@ -7,8 +7,13 @@ def task_1_2():
 
 
 def task_1_3():
+    dct = {'Джеймс': 12345}
 
+    if 'Джеймс' in dct:
+        print(dct['Джеймс'])
+    else:
+        print('Ключ не найден!')
 
 
 if __name__ == '__main__':
-    task_1_1()
+    task_1_3()
