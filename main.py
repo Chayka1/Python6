@@ -22,8 +22,21 @@ def task_1_4():
         del dct['Джим']
 
 def task_1_5():
-    myset = set([10, 20, 30, 40])
+    myset = {10, 20, 30, 40}
+
+
+def task_1_6():
+    set1 = {10, 20, 30, 40}
+    set2 = {50, 60, 70, 80}
+    set3 = set()
+
+    set3.update(set1)
+    set3.update(set2)
+
+
+def task_1_7():
+
 
 
 if __name__ == '__main__':
-    task_1_4()
+    task_1_6()
