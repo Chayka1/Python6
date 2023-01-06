@@ -66,5 +66,19 @@ def task_1_10():
     set3 = set1 ^ set2
 
 
+def task_1_11():
+    numbers = [1, 2, 3, 4, 5]
+
+    a = {}
+    num = 0
+
+    for i in numbers:
+        num += 10
+        a[i] = num
+
+    print(a)
+
+
+
 if __name__ == '__main__':
-    task_1_10()
+    task_1_11()
