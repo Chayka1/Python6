@@ -39,9 +39,12 @@ def task_1_7():
     set2 = {50, 10, 70, 30}
     set3 = set()
 
-    for i in set1:
-        if i in set2:
-            set3.add(i)
+    set3 = set1.intersection(set2)
+
+
+def task_1_8():
+    pass
+
 
 
 if __name__ == '__main__':
