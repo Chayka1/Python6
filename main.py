@@ -35,8 +35,14 @@ def task_1_6():
 
 
 def task_1_7():
+    set1 = {10, 20, 30, 40}
+    set2 = {50, 10, 70, 30}
+    set3 = set()
 
+    for i in set1:
+        if i in set2:
+            set3.add(i)
 
 
 if __name__ == '__main__':
-    task_1_6()
+    task_1_7()
