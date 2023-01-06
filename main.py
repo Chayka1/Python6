@@ -79,6 +79,16 @@ def task_1_11():
     print(a)
 
 
+def task_1_12():
+    test_averages = {'Джанель': 98, 'Сэм': 87, 'Дженнифер': 92,
+    'Томас': 74, 'Салли': 89, 'Зеб':84}
+
+    high_scores = {}
+
+    for k, v in test_averages.items():
+        if v >= 90:
+            high_scores[k] = v
+
 
 if __name__ == '__main__':
-    task_1_11()
+    task_1_12()
