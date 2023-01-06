@@ -43,8 +43,12 @@ def task_1_7():
 
 
 def task_1_8():
-    pass
+    set1 = {10, 20, 30, 40}
+    set2 = {50, 10, 70, 30}
+    set3 = set()
+
+    set3 = set1 - set2
 
 
 if __name__ == '__main__':
-    task_1_7()
+    task_1_8()
