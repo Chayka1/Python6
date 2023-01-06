@@ -50,5 +50,13 @@ def task_1_8():
     set3 = set1 - set2
 
 
+def task_1_9():
+    set1 = {10, 20, 30, 40}
+    set2 = {50, 10, 70, 30}
+    set3 = set()
+
+    set3 = set2 - set1
+
+
 if __name__ == '__main__':
-    task_1_8()
+    task_1_9()
