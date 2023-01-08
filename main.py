@@ -1,3 +1,4 @@
+import random
 def task_1_1():
     kuku = {'а': 1, 'б': 2, 'в': 3}
 
@@ -101,5 +102,32 @@ def task_2_1():
           f'Время проведения курса: {dct_3[course_number]}')
 
 
+def task_2_2():
+    dct = {'Украины': 'Киев', 'США': 'Вашингтон', 'Польши': 'Варшава', 'Италии': 'Рим', 'Франции': 'Париж'}
+
+    country = []
+    right_answers = 0
+    wrong_answers = 0
+    i = 1
+
+    for c in dct:
+        country.append(c)
+
+    while i == 1:
+        random_country = random.choice(country)
+
+        city = input(f'Введите столицу {random_country}: ')
+
+        if dct[random_country] == city:
+            right_answers += 1
+        else:
+            wrong_answers += 1
+
+        i = int(input('Что бы продолжить нажмите 1, для выхода любое число: '))
+
+    print(f'Правильных ответов {right_answers}\n'
+          f'Неправильных ответов {wrong_answers}')
+
+
 if __name__ == '__main__':
-    task_2_1()
+    task_2_2()
